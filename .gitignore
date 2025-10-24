@@ -43,3 +43,6 @@ next-env.d.ts
 # cursor auto-created files
 .cursorindexingignore
 .specstory
+
+# clerk configuration (can include secrets)
+/.clerk/
