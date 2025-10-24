@@ -12,4 +12,8 @@ export const config = {
   database: {
     url: getEnvironmentVariable("DATABASE_URL"),
   },
+  clerk: {
+    publishableKey: getEnvironmentVariable("NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY"),
+    secretKey: getEnvironmentVariable("CLERK_SECRET_KEY"),
+  },
 } as const;
